@@ -39,3 +39,22 @@ body {
 .cabecalho ul li a {
   font-weight: 400;
 }
+
+/* --- Painel --- */
+.painel {
+  background: url(../images/painel.jpg) center center no-repeat;
+  height: 628px;
+  position: relative;
+}
+
+.painel h2 {
+  color: #FFFFFF;
+  font-weight: 400;
+  width: 702px;
+  font-size: 60px;
+  line-height: 75px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
