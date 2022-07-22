@@ -63,6 +63,7 @@ body {
 .texto-secao {
   margin: 153px;
   text-align: center;
+  clear: both;
 }
 
 .texto-secao .logo-secoes {
@@ -90,4 +91,39 @@ body {
   width: 484px;
   margin: 0 auto;
   font-style: normal;
+}
+
+/* --- Ladrilho (Painel de Imagens) --- */
+.ladrilho:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+.ladrilho div {
+  float: left;
+}
+
+.ladrilho .grande {
+  background: url(../images/grande.jpg) center center no-repeat;
+  height: 600px;
+  width: 50%;
+}
+
+.ladrilho .pequeno-01 {
+  background: url(../images/pequeno01.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .pequeno-02 {
+  background: url(../images/pequeno02.jpg) center center no-repeat;
+  height: 300px;
+  width: 25%;
+}
+
+.ladrilho .medio {
+  background: url(../images/medio.jpg) center center no-repeat;
+  height: 300px;
+  width: 50%;
 }
