@@ -84,3 +84,10 @@ body {
   text-align: center;
   margin: 0 auto;
 }
+
+.texto-secao address {
+  font-size: 28px;
+  width: 484px;
+  margin: 0 auto;
+  font-style: normal;
+}
