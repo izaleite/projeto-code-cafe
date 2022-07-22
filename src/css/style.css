@@ -158,3 +158,67 @@ body {
   font-weight: 600;
   color: #FFFFFF;
 }
+
+/* --- Rodapé --- */
+.rodape {
+  background: url(../images/fundo-rodape.jpg) center center no-repeat;
+  background-size: cover;
+  padding: 35px 30px;
+  clear: both;
+}
+
+.rodape :where(ul li a, .copyright, .redes-sociais a) {
+  color: #FFFFFF;
+}
+
+.rodape ul {
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
+}
+
+.rodape ul li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.rodape ul li a {
+  font-weight: 400;
+}
+
+.rodape ul li a:hover {
+  font-weight: bold;
+}
+
+.copyright {
+  user-select: none;
+  font-size: 15px;
+}
+
+.redes-sociais {
+  float: right;
+}
+
+.redes-sociais a {
+  margin: 10px;
+}
+
+.facebook:hover {
+  color: #4267B2;
+}
+
+.whatsapp:hover {
+  color: #25D366;
+}
+
+.twitter:hover {
+  color: #1DA1F2;
+}
+
+.youtube:hover {
+  color: #FF0000;
+}
+
+.conteudo-de-baixo {
+  margin-top: 40px;
+}
