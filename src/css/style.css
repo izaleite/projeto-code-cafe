@@ -58,3 +58,29 @@ body {
   left: 50%;
   transform: translate(-50%, -50%)
 }
+
+/* --- Quem Somos e Onde Estamos --- */
+.texto-secao {
+  margin: 153px;
+  text-align: center;
+}
+
+.texto-secao .logo-secoes {
+  width: 170px;
+  height: 170px;
+  margin-bottom: 70px;
+}
+
+.texto-secao h2 {
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 37px;
+}
+
+.texto-secao p {
+  font-size: 18px;
+  max-width: 702px;
+  text-align: center;
+  margin: 0 auto;
+}
