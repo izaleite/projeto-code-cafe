@@ -127,3 +127,34 @@ body {
   height: 300px;
   width: 50%;
 }
+
+/* ---Contato --- */
+.contato {
+  background: url(../images/fundo-contato.jpg) center center no-repeat;
+  height: 600px;
+  position: relative;
+}
+
+.contato div {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.contato h2 {
+  font-size: 45px;
+  margin-bottom: 30px;
+  line-height: 56px;
+}
+
+.contato address {
+  font-size: 25px;
+  font-style: normal;
+  width: 342px;
+  line-height: 31px;
+}
+
+.contato :where(h2, address) {
+  font-weight: 600;
+  color: #FFFFFF;
+}
