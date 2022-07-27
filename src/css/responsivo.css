@@ -1,0 +1,43 @@
+/* 
+320px — 480px: dispositivos móveis
+481px — 768px: iPads, tablets
+769px — 1024px: telas pequenas, laptops
+1025px — 1200px: desktops, telas grandes
+1201px e acima —  telas muito grandes, TVs
+*/
+
+@media (max-width:1200px) {}
+
+@media (max-width:1024px) {}
+
+@media (max-width:768px) {}
+
+@media (max-width:480px) {
+
+  .cabecalho .logo {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 52px;
+  }
+
+  .cabecalho nav {
+    position: static;
+    text-align: center;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .cabecalho nav ul li {
+    display: block;
+  }
+
+  .cabecalho ul li a {
+    font-size: 2rem;
+    display: block;
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width:375px) {}
