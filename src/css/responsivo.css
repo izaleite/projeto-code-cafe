@@ -25,6 +25,7 @@
     text-align: center;
     width: 100%;
     padding-right: 0;
+    margin-bottom: 133px;
   }
 
   .cabecalho nav ul li {
@@ -38,6 +39,16 @@
   }
 
 
+  .painel h2 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+
 }
 
-@media (max-width:375px) {}
+@media (max-width:375px) {
+  .painel {
+    height: 266.65px;
+  }
+}
