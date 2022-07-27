@@ -39,6 +39,7 @@ body {
 
 .cabecalho ul li a {
   font-weight: 400;
+  font-size: 1.6rem;
 }
 
 /* --- Painel --- */
@@ -52,7 +53,7 @@ body {
   color: #FFFFFF;
   font-weight: 400;
   width: 702px;
-  font-size: 60px;
+  font-size: 6rem;
   line-height: 75px;
   position: absolute;
   top: 50%;
@@ -75,20 +76,20 @@ body {
 
 .texto-secao h2 {
   font-weight: 600;
-  font-size: 45px;
+  font-size: 4.5rem;
   text-transform: uppercase;
   margin-bottom: 37px;
 }
 
 .texto-secao p {
-  font-size: 18px;
+  font-size: 1.8rem;
   max-width: 702px;
   text-align: center;
   margin: 0 auto;
 }
 
 .texto-secao address {
-  font-size: 28px;
+  font-size: 2.8rem;
   width: 484px;
   margin: 0 auto;
   font-style: normal;
@@ -143,13 +144,13 @@ body {
 }
 
 .contato h2 {
-  font-size: 45px;
+  font-size: 4.5rem;
   margin-bottom: 30px;
   line-height: 56px;
 }
 
 .contato address {
-  font-size: 25px;
+  font-size: 2.5rem;
   font-style: normal;
   width: 342px;
   line-height: 31px;
@@ -193,7 +194,7 @@ body {
 
 .copyright {
   user-select: none;
-  font-size: 15px;
+  font-size: 1.5rem;
 }
 
 .redes-sociais {
