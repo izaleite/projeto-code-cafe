@@ -1,6 +1,4 @@
-
-![logo](https://user-images.githubusercontent.com/79549424/181399340-770559cd-237a-4030-8b1f-1b77025fe927.jpg)
-
+<img align="right" width="100" src="https://user-images.githubusercontent.com/79549424/181399340-770559cd-237a-4030-8b1f-1b77025fe927.jpg">
 
 # Code Café
 
