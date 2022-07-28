@@ -8,6 +8,7 @@ A Landing Page de uma cafeteria, layout do curso DevQuest.
 
 Esse projeto mesmo que simples me possibilitou praticar e entender alguns conceitos importantes como:
 - Diferentes formas de centralizar elementos;
+- A importância do HTML semântico
 - Uso de propriedades escritas com shorthand no CSS;
 - Uso de icones externos; 
 - Uso do float;
