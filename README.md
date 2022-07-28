@@ -10,6 +10,7 @@ A Landing Page de uma cafeteria, layout do curso DevQuest.
 
 Esse projeto mesmo que simples me possibilitou praticar e entender alguns conceitos importantes como:
 - Diferentes formas de centralizar elementos;
+- Uso de propriedades escritas com shorthand no CSS;
 - Uso de icones externos; 
 - Uso do float;
 - Medidas responsivas;
@@ -26,4 +27,4 @@ Esse projeto mesmo que simples me possibilitou praticar e entender alguns concei
 
 ## Conheça o Code Café
 
-Link: https://izaleite.github.io/projeto-code-cafe/
+Link: https://bit.ly/CodeCafe
