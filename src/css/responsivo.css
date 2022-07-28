@@ -1,23 +1,119 @@
-/* 
-320px — 480px: dispositivos móveis
-481px — 768px: iPads, tablets
-769px — 1024px: telas pequenas, laptops
-1025px — 1200px: desktops, telas grandes
-1201px e acima —  telas muito grandes, TVs
-*/
+@media (max-width: 992px) {
+  .texto-secao {
+    padding: 130px 26px;
+  }
 
-@media (max-width:1200px) {}
+  .texto-secao p,
+  .texto-secao.onde-estamos address {
+    width: 100%;
+  }
 
-@media (max-width:1024px) {}
+}
 
-@media (max-width:768px) {}
+@media (max-width: 768px) {
+  .contato {
+    background-image: none;
+    background-color: #D3AE71;
+  }
 
-@media (max-width:480px) {
+  .contato .alinhamento-texto-contato {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+
+  .contato .alinhamento-texto-contato h2 {
+    margin-bottom: 51px;
+  }
+
+  .contato address {
+    font-size: 2rem;
+    display: inline-block;
+    font-style: normal;
+  }
+
+  .rodape .redes-sociais svg {
+    margin-top: 20px;
+    height: 15px;
+    width: 15px;
+  }
+
+}
+
+@media (max-width: 720px) {
+
+  .ladrilho .grande,
+  .ladrilho .medio {
+    width: 100%;
+  }
+
+  .ladrilho .pequeno-01,
+  .ladrilho .pequeno-02.grao {
+    width: 50%;
+  }
+
+  .texto-secao {
+    margin: 0;
+  }
+
+  .rodape {
+    background-image: none;
+    background-color: #000000;
+    text-align: center;
+  }
+
+  .rodape .logo {
+    display: block;
+  }
+
+  .rodape ul {
+    display: block;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+
+  .rodape :where(.logo, ul) {
+    margin-bottom: 122px;
+  }
+
+  .rodape ul li {
+    display: block;
+    padding: 28px;
+  }
+
+  .rodape ul li a {
+    font-size: 2rem;
+  }
+
+  .rodape .redes-sociais {
+    float: none;
+    margin-bottom: 28px;
+    display: block;
+  }
+
+  .rodape .redes-sociais svg {
+    margin-top: 20px;
+    height: 30px;
+    width: 30px;
+  }
+
+  .copyright {
+    color: #FDFDFD;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 14px;
+  }
+
+}
+
+@media (max-width: 480px) {
 
   .cabecalho .logo {
     display: block;
     margin: 0 auto;
-    margin-bottom: 52px;
   }
 
   .cabecalho nav {
@@ -25,30 +121,43 @@
     text-align: center;
     width: 100%;
     padding-right: 0;
-    margin-bottom: 133px;
   }
 
   .cabecalho nav ul li {
     display: block;
   }
 
-  .cabecalho ul li a {
-    font-size: 2rem;
-    display: block;
+  .cabecalho nav ul li a {
     width: 100%;
+    display: block;
   }
-
 
   .painel h2 {
     font-size: 2.5rem;
     text-align: center;
+    width: 100%;
   }
 
+  .texto-secao .logo-secoes {
+    width: 174px;
+    height: 174px;
+  }
 
+  .texto-secao h2 {
+    font-size: 3rem;
+  }
+
+  .texto-secao p,
+  .texto-secao.onde-estamos p {
+    font-size: 2rem;
+  }
 }
 
-@media (max-width:375px) {
-  .painel {
-    height: 266.65px;
+@media (max-width: 375px) {
+
+  .ladrilho .pequeno,
+  .ladrilho .pequeno.grao {
+    width: 100%;
   }
+
 }
